@@ -6,6 +6,9 @@
 **식별자**는 제공자 구별 없이 식별을 위한 임의의 숫자나 영어의 조합
 
 # user.db
+
+테이블 명: config.py `SEASON` 값 (ex: `Season-FiNALE`)
+
 `userId` 유저 고유 번호
 
 `exp` 채팅패스 경험치
@@ -22,6 +25,8 @@
 
 # season.db
 
+테이블 명: config.py `SEASON` 값 (ex: `Season-FiNALE`)
+
 `level` 보상을 획득할 채팅패스 레벨
 
 `item(1,2,3)` 일반 보상 아이템 식별자
@@ -33,6 +38,8 @@
 `premium`, `premium_amount`, `premium_data` 프리미엄 (서버 부스팅) 아이템 관련 (위와 내용은 같음)
 
 # reward.db
+
+테이블 명: config.py `SEASON` 값 (ex: `Season-FiNALE`)
 
 `userId` 유저 고유 번호
 
