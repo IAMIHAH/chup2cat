@@ -76,6 +76,19 @@
 
 `desc_en` 영어 설명
 
+# inventory.db
+
+※ 테이블 명은 무조건 `유저 고유 번호`여야 함
+
+`item` 아이템 식별자
+
+`amount` 개수
+
+`data` 아이템 데이터
+
+PRIMARY KEY = `item` and `data`
+`item`값이 중복이어도 `data`값이 다르면 내부에서 다른 아이템으로 침
+
 # account.db
 
 `discordId` 유저 고유 번호
@@ -90,9 +103,30 @@
 
 # attendance.db
 
-** 테이블 명은 무조건 `attendance-연도-월` 이어야 함 (월은 한자리수면 앞에 0 붙어야됨)
+※ 테이블 명은 무조건 `attendance-연도-월` 이어야 함 (월은 한자리수면 앞에 0 붙어야됨)
 
 `userId` 유저 고유 번호
 
 `day(1~31)` 출석 여부 (2 이상 = 출석 인정)
 
+# gamble.db
+
+테이블 명 `blackjack`
+
+`userId` 유저 고유 번호
+
+`channelId` 스레드 고유 번호
+
+`betting` 냥코인 개수
+
+`player` 플레이어 보유 카드
+
+`dealer` 딜러 보유 카드
+
+`remained` 남은 카드
+
+# 이벤트 데이터베이스
+
+`userId` 유저 고유 번호
+
+`point` (컬럼명 변경가능) 이벤트 포인트 개수
