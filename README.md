@@ -9,3 +9,6 @@ If you are not allowed, you should use the GPL-3.0 license.
 아기무\*\*\*\* 서버 유저분들은 MIT 라이선스로 사용하실 수 있습니다.
 
 추가적으로 MIT 라이선스 사용 허가를 요청하려면 연락해주세요.
+
+## 웹
+[chup2cat-web](https://github.com/IAMIHAH/chup2cat-web)
